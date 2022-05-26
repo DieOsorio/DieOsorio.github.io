@@ -4,7 +4,7 @@ import logo from "./assets/mylogo.png";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="d-flex flex-column site-container">
         <header>
           <nav className="navbar bg-light">
