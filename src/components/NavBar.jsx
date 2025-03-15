@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 function NavBar() {
   const [scrolled, setScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,23 +34,86 @@ function NavBar() {
       transition={{ duration: 0.8 }}
     >
       <h1 className="text-xl font-bold text-white">Mi Portfolio</h1>
-      <ul className="flex space-x-6 text-gray-300">
-      <li>
-          <button onClick={() => handleScrollTo("#about")} className="hover:text-white transition">
-            Sobre mí
-          </button>
-        </li>
-        <li>
-          <button onClick={() => handleScrollTo("#projects")} className="hover:text-white transition">
-            Proyectos
-          </button>
-        </li>
-        <li>
-          <button onClick={() => handleScrollTo("#contact")} className="hover:text-white transition">
-            Contacto
-          </button>
-        </li>
-      </ul>
+
+      {/* Botón hamburguesa */}
+      <button
+        className="text-white md:hidden"
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+
+      {/* Menú desplegable en dispositivos móviles */}
+      <div
+        className={`${
+          isMenuOpen ? "max-h-screen" : "max-h-0"
+        } absolute top-full right-0 w-auto max-w-[200px] bg-[#121212] md:hidden transition-all duration-500 ease-in-out overflow-hidden`}
+      >
+        <ul className="flex flex-col items-end text-gray-300">
+          <li>
+            <button
+              onClick={() => handleScrollTo("#about")}
+              className="hover:text-white transition py-2 px-4"
+            >
+              Sobre mí
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleScrollTo("#projects")}
+              className="hover:text-white transition py-2 px-4"
+            >
+              Proyectos
+            </button>
+          </li>
+          <li>
+            <button
+              onClick={() => handleScrollTo("#contact")}
+              className="hover:text-white transition py-2 px-4"
+            >
+              Contacto
+            </button>
+          </li>
+          <li>
+            <a
+              href="https://dieosorio.github.io/cv"
+              target="_blank"
+              className="hover:text-white transition py-2 px-4"
+            >
+              Currículum
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      {/* Menú en desktop (pantalla grande) */}
+      <div className="hidden md:flex space-x-6 text-gray-300 ml-auto">
+        <button onClick={() => handleScrollTo("#about")} className="hover:text-white transition">
+          Sobre mí
+        </button>
+        <button onClick={() => handleScrollTo("#projects")} className="hover:text-white transition">
+          Proyectos
+        </button>
+        <button onClick={() => handleScrollTo("#contact")} className="hover:text-white transition">
+          Contacto
+        </button>
+        <a href="https://dieosorio.github.io/cv" target="_blank" className="hover:text-white transition">
+          Currículum
+        </a>
+      </div>
     </motion.nav>
   );
 }
