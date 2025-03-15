@@ -9,7 +9,7 @@ function Hero() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
-      <h1 className="text-4xl md:text-6xl font-bold">Hola, soy [Tu Nombre]</h1>
+      <h1 className="text-4xl md:text-6xl font-bold">Hola, soy Diego</h1>
       <p className="text-lg md:text-2xl text-gray-400 mt-4">
         Desarrollador Frontend | UI/UX Enthusiast
       </p>
