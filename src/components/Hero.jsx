@@ -11,6 +11,7 @@ function Hero() {
 
   return (
     <motion.section
+      id="hero"
       className="h-screen flex flex-col justify-center items-center text-center px-4"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
@@ -21,7 +22,7 @@ function Hero() {
         Desarrollador Frontend | UI/UX Enthusiast
       </p>
 
-       <img src="/assets/me.jpg" alt="Mi imagen" className="rounded-full w-40 h-40 my-8 object-contain" />
+       <img src="/assets/me.jpg" alt="Mi imagen" className="rounded-full w-40 h-40 my-8 object-cover" />
 
       <button
         onClick={() => handleScrollTo("#projects")}

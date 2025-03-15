@@ -11,7 +11,7 @@ function Contact() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <h2 className="text-3xl font-bold">Contáctame</h2>
+      <h2 className="text-3xl font-bold mb-10">Contáctame</h2>
       <p className="text-gray-400 mt-4 max-w-lg">
         ¿Tienes algún proyecto en mente o quieres colaborar? Escríbeme y charlemos sobre ideas.
       </p>

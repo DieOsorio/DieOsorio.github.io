@@ -33,7 +33,11 @@ function NavBar() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
+      <button
+      onClick={() => handleScrollTo("#hero")}
+      >
       <h1 className="text-xl font-bold text-white">Mi Portfolio</h1>
+      </button>
 
       {/* Botón hamburguesa */}
       <button
