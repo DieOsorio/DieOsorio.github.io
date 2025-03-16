@@ -18,7 +18,7 @@ function About() {
           <img src="/assets/code.jpg" alt="Código en pantalla" className="w-52 h-52 object-cover rounded-lg mb-4 mx-auto" />
           <p>
           Desde siempre me ha atraído el proceso lógico y la resolución de problemas, 
-          lo que me llevó a interesarme por la programación. <br/><br /> He explorado tanto el 
+          lo que me llevó a interesarme por la programación. <br/><br/> He explorado tanto el 
           back-end como el front-end y, de todo lo que he probado, Java ha sido el 
           lenguaje que más me ha gustado, aunque aún no he tenido la oportunidad de 
           utilizarlo en un proyecto.<br /><br /> Me motiva seguir aprendiendo porque encuentro en 

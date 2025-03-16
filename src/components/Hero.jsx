@@ -13,8 +13,8 @@ function Hero() {
     <motion.section
       id="hero"
       className="h-screen flex flex-col justify-center items-center text-center px-4"
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0, x: -50 }}
+      animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
     >
       <h1 className="text-4xl md:text-6xl font-bold">Hola, soy Diego</h1>

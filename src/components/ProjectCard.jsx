@@ -20,7 +20,7 @@ const ProjectCard = ({ image, title, description, webDescription, link }) => {
         <a
           href={link}
           target="_blank"
-          className="text-[#3498db] hover:text-blue-400 mt-4 inline-block"
+          className="text-[#3498db] hover:text-blue-400 mt-5 inline-block"
         >
           Visitar Sitio
         </a>

@@ -7,8 +7,8 @@ function Projects() {
     <motion.section
       id="projects"
       className="min-h-screen flex flex-col items-center text-center py-16"
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0, x: -50 }}
+      whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
@@ -31,10 +31,17 @@ function Projects() {
           link="https://vestigiorestauraciones.com/"
         />
         <ProjectCard
-          image="ruta/a/tu-imagen2.jpg"
-          title="Proyecto 2"
-          description="Descripción corta del proyecto 2"
-          link="#"
+          image="/assets/certificados.webp"
+          title="Certificados"
+          description="Los certificados corresponden a cursos realizados en Coursera en distintas 
+          áreas relacionadas con el desarrollo web y la programación.
+          Estos cursos me han permitido adquirir y reforzar conocimientos en frontend, 
+          backend y herramientas modernas para el desarrollo de aplicaciones."
+          webDescription="Este proyecto, desarrollado con React.js y Tailwind CSS, muestra de 
+          forma ordenada mis certificados de Coursera. Utilicé JSON para organizar los datos de 
+          manera clara y escalable, facilitando su actualización. El diseño es minimalista y 
+          prioriza la legibilidad y navegación fluida."
+          link="https://dieosorio.github.io/certificados/"
         />
       </div>
     </motion.section>
