@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="bg-[url('../public/assets/black-linen.png')] text-gray-200 min-h-screen">
+    <div className="bg-[#121212]/60 bg-[url('../public/assets/black-linen.png')] text-gray-200 min-h-screen">
     <NavBar />
     <Hero />
     <About />

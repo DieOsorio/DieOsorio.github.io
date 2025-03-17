@@ -12,7 +12,7 @@ function Hero() {
   return (
     <motion.section
       id="hero"
-      className="bg-[#1F1F1F] bg-opacity-85 h-screen flex flex-col justify-center items-center text-center px-4"
+      className="bg-[#1F1F1F] bg-opacity-70 h-screen flex flex-col justify-center items-center text-center px-4"
       initial={{ opacity: 0, x: -50 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}

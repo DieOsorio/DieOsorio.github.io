@@ -8,7 +8,7 @@ function Contact() {
   return (
     <motion.section
       id="contact"
-      className="bg-gray-900 bg-opacity-85 min-h-screen flex flex-col items-center text-center py-16"
+      className="bg-gray-900 bg-opacity-70 min-h-screen flex flex-col items-center text-center py-16"
       initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8 }}
