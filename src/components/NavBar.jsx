@@ -68,13 +68,13 @@ function NavBar() {
       <div
         className={`${
           isMenuOpen ? "max-h-screen" : "max-h-0"
-        } absolute top-full right-0 w-auto max-w-[200px] bg-[#121212] md:hidden transition-all duration-500 ease-in-out overflow-hidden`}
+        } absolute top-full right-0 w-auto max-w-[200px] bg-[#121212]/80 md:hidden transition-all duration-500 ease-in-out overflow-hidden`}
       >
-        <ul className="flex flex-col items-end text-gray-300">
+        <ul className="flex flex-col items-center text-gray-300 gap-3 p-3">
           <li>
             <button
               onClick={() => handleScrollTo("#about")}
-              className="hover:text-white transition py-2 px-4"
+              className="hover:text-white transition"
             >
               Sobre mí
             </button>
@@ -82,7 +82,7 @@ function NavBar() {
           <li>
             <button
               onClick={() => handleScrollTo("#projects")}
-              className="hover:text-white transition py-2 px-4"
+              className="hover:text-white transition"
             >
               Proyectos
             </button>
@@ -90,7 +90,7 @@ function NavBar() {
           <li>
             <button
               onClick={() => handleScrollTo("#contact")}
-              className="hover:text-white transition py-2 px-4"
+              className="hover:text-white transition"
             >
               Contacto
             </button>
@@ -99,7 +99,7 @@ function NavBar() {
             <a
               href="https://dieosorio.github.io/cv"
               target="_blank"
-              className="hover:text-white transition py-2 px-4"
+              className="hover:text-white transition"
             >
               Currículum
             </a>
