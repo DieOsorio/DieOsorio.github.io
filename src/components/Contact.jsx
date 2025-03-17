@@ -18,7 +18,7 @@ function Contact() {
       <p className="text-gray-400 mt-4 max-w-lg">
         ¿Tienes algún proyecto en mente o quieres colaborar? Escríbeme y charlemos sobre ideas.
       </p>
-      <div className="flex gap-4 mt-6">
+      <div className="flex gap-4 mt-6 flex-col lg:flex-row">
         <a
           href="mailto:dieosorio@outlook.com"
           className="flex items-center  w-[190px] justify-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-full text-lg shadow-lg hover:bg-blue-600 transition"
