@@ -15,11 +15,11 @@
         "title": "Sobre mí",
         "code": {
             "title": "Programación",
-            "description": "Desde siempre me ha atraído el proceso lógico y la resolución de problemas, lo que me llevó a interesarme por la programación. <br/><br/> He explorado tanto el ack-end como el front-end y, de todo lo que he probado, Java ha sido el lenguaje que más me ha gustado, aunque aún no he tenido la oportunidad de utilizarlo en un proyecto.<br /><br /> Me motiva seguir aprendiendo porque encuentro en la programación una combinación perfecta entre utilidad y el desafío de resolver problemas.<br /><br /> Además, desde chico he usado la computadora para muchas cosas, empezando por los juegos, lo que con el tiempo amplió mi curiosidad por la tecnología."
+            "description": "Desde siempre me ha atraído el proceso lógico y la resolución de problemas, lo que me llevó a interesarme por la programación. He explorado tanto el ack-end como el front-end y, de todo lo que he probado, Java ha sido el lenguaje que más me ha gustado, aunque aún no he tenido la oportunidad de utilizarlo en un proyecto. Me motiva seguir aprendiendo porque encuentro en la programación una combinación perfecta entre utilidad y el desafío de resolver problemas. Además, desde chico he usado la computadora para muchas cosas, empezando por los juegos, lo que con el tiempo amplió mi curiosidad por la tecnología."
         },
         "music": {
             "title": "Música",
-            "description": "La música es otra de mis grandes pasiones. Toco la guitarra desde hace 20 años y disfruto de una enorme variedad de géneros.<br /><br /> Para mí, cuando el arte es honesto, es único.<br /><br /> También compongo mis propias canciones, y aunque aún no cuento con las herramientas para producirlas, creo que la composición es mi don natural y algo que realmente me apasiona."
+            "description": "La música es otra de mis grandes pasiones. Toco la guitarra desde hace 20 años y disfruto de una enorme variedad de géneros. Para mí, cuando el arte es honesto, es único. También compongo mis propias canciones, y aunque aún no cuento con las herramientas para producirlas, creo que la composición es mi don natural y algo que realmente me apasiona."
         }
     },
     "projects": {
