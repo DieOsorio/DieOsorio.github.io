@@ -1,7 +1,11 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
+import { useTranslation } from "react-i18next";
+
 function NavBar() {
+  const {t} = useTranslation();
+
   const [scrolled, setScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -37,7 +41,7 @@ function NavBar() {
       onClick={() => handleScrollTo("#hero")}
       >
       <div className="flex gap-2 items-center">
-        <h1 className="text-xl font-bold text-white">Mi Portfolio</h1>
+        <h1 className="text-xl font-bold text-white">{t('navBar.title')}</h1>
         <img src="/assets/mylogo.png" alt="logo" className="invert brightness-110 pl-1 w-12 h-12 object-contain rounded-lg"/>
       </div>
       
@@ -76,7 +80,7 @@ function NavBar() {
               onClick={() => handleScrollTo("#about")}
               className="hover:text-white transition"
             >
-              Sobre mí
+              {t('navBar.aboutMe')}
             </button>
           </li>
           <li>
@@ -84,7 +88,7 @@ function NavBar() {
               onClick={() => handleScrollTo("#projects")}
               className="hover:text-white transition"
             >
-              Proyectos
+              {t('navBar.projects')}
             </button>
           </li>
           <li>
@@ -92,7 +96,7 @@ function NavBar() {
               onClick={() => handleScrollTo("#contact")}
               className="hover:text-white transition"
             >
-              Contacto
+              {t('navBar.contact')}
             </button>
           </li>
           <li>
@@ -101,7 +105,7 @@ function NavBar() {
               target="_blank"
               className="hover:text-white transition"
             >
-              Currículum
+              {t('navBar.resume')}
             </a>
           </li>
         </ul>
@@ -110,16 +114,16 @@ function NavBar() {
       {/* Menú en desktop (pantalla grande) */}
       <div className="hidden md:flex space-x-6 text-gray-300 ml-auto">
         <button onClick={() => handleScrollTo("#about")} className="hover:text-white transition">
-          Sobre mí
+          {t('navBar.aboutMe')}
         </button>
         <button onClick={() => handleScrollTo("#projects")} className="hover:text-white transition">
-          Proyectos
+          {t('navBar.projects')}
         </button>
         <button onClick={() => handleScrollTo("#contact")} className="hover:text-white transition">
-          Contacto
+          {t('navBar.contact')}
         </button>
         <a href="https://dieosorio.github.io/cv" target="_blank" className="hover:text-white transition">
-          Currículum
+          {t('navBar.resume')}
         </a>
       </div>
     </motion.nav>

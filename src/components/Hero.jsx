@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 
+import { useTranslation } from "react-i18next";
+
 function Hero() {
+  const {t} = useTranslation();
 
   const handleScrollTo = (id) => {
     const section = document.querySelector(id);
@@ -17,9 +20,9 @@ function Hero() {
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
     >
-      <h1 className="text-4xl md:text-6xl font-bold">Hola, soy Diego</h1>
+      <h1 className="text-4xl md:text-6xl font-bold">{t('hero.greetings')}</h1>
       <p className="text-lg md:text-2xl text-gray-400 mt-4">
-        Desarrollador Frontend | UI/UX Enthusiast
+        {t('hero.specialization')}
       </p>
 
        <img src="/assets/me.jpg" alt="Mi imagen" className="rounded-full w-40 h-40 my-8 object-cover" />
@@ -28,7 +31,7 @@ function Hero() {
         onClick={() => handleScrollTo("#projects")}
         className="mt-6 px-6 py-3 bg-blue-500 text-white rounded-full text-lg shadow-lg hover:bg-blue-600 transition"
       >
-        Ver mis proyectos
+        {t('hero.seeProjects')}
       </button>
     </motion.section>
   )

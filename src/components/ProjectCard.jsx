@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard = ({ image, title, description, webDescription, link }) => {
+const ProjectCard = ({ image, title, description, webDescription, link, visit }) => {
   return (
     <div className="bg-[#1F1F1F]/20 rounded-lg overflow-hidden shadow-lg flex flex-col h-full">
       <a href={link} target="_blank" rel={title}> 
@@ -21,7 +21,7 @@ const ProjectCard = ({ image, title, description, webDescription, link }) => {
             target="_blank"
             className="text-[#3498db] hover:text-blue-400"
             >
-            Visitar Sitio
+            {visit}
           </a>
         </div>        
     </div>

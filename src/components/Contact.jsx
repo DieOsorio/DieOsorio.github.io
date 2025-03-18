@@ -4,7 +4,11 @@ import React from 'react'
 import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
+import { useTranslation } from "react-i18next";
+
 function Contact() {
+  const {t} = useTranslation();
+
   return (
     <motion.section
       id="contact"
@@ -14,9 +18,9 @@ function Contact() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <h2 className="text-3xl font-bold mb-10">Contáctame</h2>
+      <h2 className="text-3xl font-bold mb-10">{t('contact.title')}</h2>
       <p className="text-gray-400 mt-4 max-w-lg">
-        ¿Tienes algún proyecto en mente o quieres colaborar? Escríbeme y charlemos sobre ideas.
+        {t('contact.subtitle')}
       </p>
       <div className="flex gap-4 mt-6 flex-col lg:flex-row">
         <a
@@ -24,7 +28,7 @@ function Contact() {
           className="flex items-center  w-[190px] justify-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-full text-lg shadow-lg hover:bg-blue-600 transition"
         >
           <MdEmail className="text-2xl" />
-          Enviar Email
+          {t('contact.email')}
         </a>
         <a
           href="https://wa.me/59897287901"
@@ -33,7 +37,7 @@ function Contact() {
           className="flex items-center w-[190px] justify-center gap-2 px-6 py-3 bg-green-500 text-white rounded-full text-lg shadow-lg hover:bg-green-600 transition"
         >
           <FaWhatsapp className="text-2xl" />
-          WhatsApp
+          {t('contact.wpp')}
         </a>
       </div>
     </motion.section>

@@ -1,0 +1,47 @@
+{
+    "navBar": {
+        "title": "Mi Portfolio",
+        "aboutMe": "Sobre mí",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "resume": "Currículum"
+    },
+    "hero": {
+        "greetings": "Hola, soy Diego",
+        "specialization": "Desarrollador Frontend | UI/UX Entusiasta",
+        "seeProjects": "Ver mis proyectos"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "code": {
+            "title": "Programación",
+            "description": "Desde siempre me ha atraído el proceso lógico y la resolución de problemas, lo que me llevó a interesarme por la programación. <br/><br/> He explorado tanto el ack-end como el front-end y, de todo lo que he probado, Java ha sido el lenguaje que más me ha gustado, aunque aún no he tenido la oportunidad de utilizarlo en un proyecto.<br /><br /> Me motiva seguir aprendiendo porque encuentro en la programación una combinación perfecta entre utilidad y el desafío de resolver problemas.<br /><br /> Además, desde chico he usado la computadora para muchas cosas, empezando por los juegos, lo que con el tiempo amplió mi curiosidad por la tecnología."
+        },
+        "music": {
+            "title": "Música",
+            "description": "La música es otra de mis grandes pasiones. Toco la guitarra desde hace 20 años y disfruto de una enorme variedad de géneros.<br /><br /> Para mí, cuando el arte es honesto, es único.<br /><br /> También compongo mis propias canciones, y aunque aún no cuento con las herramientas para producirlas, creo que la composición es mi don natural y algo que realmente me apasiona."
+        }
+    },
+    "projects": {
+        "title": "Mis Proyectos",
+        "subtitle": "Algunos de mis trabajos recientes",
+        "vestigio": {
+            "title":"Vestigio Restauraciones",
+            "description": "Restauración artesanal de muebles de estilo. Preservamos su historia con técnicas tradicionales, devolviendo a cada pieza su esplendor original. Con más de 20 años de experiencia, en Vestigio nos dedicamos a recuperar muebles valiosos con un trabajo cuidadoso y detallado, manteniendo su carácter y calidad.",
+            "webDescription": "La página web de Vestigio fue desarrollada con HTML, CSS y JavaScript, con un diseño personalizado que refleja la identidad del proyecto. Cada sección fue pensada para ofrecer una navegación clara y sencilla, asegurando que la presentación de los trabajos de restauración sea visualmente atractiva y fácil de explorar.",
+            "visit": "Visitar Sitio"
+        },
+        "certificates": {
+            "title":"Certificados",
+            "description": "Los certificados corresponden a cursos realizados en Coursera en distintas áreas relacionadas con el desarrollo web y la programación.Estos cursos me han permitido adquirir y reforzar conocimientos en frontend, backend y herramientas modernas para el desarrollo de aplicaciones.",
+            "webDescription": "Este proyecto, desarrollado con React.js y Tailwind CSS, muestra de forma ordenada mis certificados de Coursera. Utilicé JSON para organizar los datos de manera clara y escalable, facilitando su actualización. El diseño es minimalista y prioriza la legibilidad y navegación fluida.",
+            "visit": "Visitar Sitio"
+        }
+    },    
+    "contact": {
+        "title": "Contáctame",
+        "subtitle": "¿Tienes algún proyecto en mente o quieres colaborar? Escríbeme y charlemos sobre ideas.",
+        "email": "Enviar Email",
+        "wpp": "WhatsApp"
+    }    
+}

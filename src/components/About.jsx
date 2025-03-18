@@ -1,7 +1,11 @@
 import { motion } from "framer-motion";
 import React from 'react'
 
+import { useTranslation } from "react-i18next";
+
 function About() {
+  const {t} = useTranslation();
+
   return (
     <motion.section
       id="about"
@@ -11,31 +15,20 @@ function About() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <h2 className="text-3xl font-bold mb-10">Sobre mí</h2>
+      <h2 className="text-3xl font-bold mb-10">{t('about.title')}</h2>
       <div  iv className="grid md:grid-cols-2 gap-6">
         <div className="bg-[#121212]/25 text-white p-6 rounded-2xl shadow-lg">
-          <h2 className="text-2xl font-bold mb-4">Programación</h2>
+          <h2 className="text-2xl font-bold mb-4">{t('about.code.title')}</h2>
           <img src="/assets/code.jpg" alt="Código en pantalla" className="w-full h-96 object-cover object-[0_65%] rounded-lg mb-4 mx-auto" />
           <p>
-          Desde siempre me ha atraído el proceso lógico y la resolución de problemas, 
-          lo que me llevó a interesarme por la programación. <br/><br/> He explorado tanto el 
-          back-end como el front-end y, de todo lo que he probado, Java ha sido el 
-          lenguaje que más me ha gustado, aunque aún no he tenido la oportunidad de 
-          utilizarlo en un proyecto.<br /><br /> Me motiva seguir aprendiendo porque encuentro en 
-          la programación una combinación perfecta entre utilidad y el desafío de resolver 
-          problemas.<br /><br /> Además, desde chico he usado la computadora para muchas cosas, empezando 
-          por los juegos, lo que con el tiempo amplió mi curiosidad por la tecnología.
+          {t('about.code.description')}
           </p>
       </div>
       <div className="bg-[#121212]/25 text-white p-6 rounded-2xl shadow-lg">
-        <h2 className="text-2xl font-bold mb-4">Música</h2>
+        <h2 className="text-2xl font-bold mb-4">{t('about.music.title')}</h2>
         <img src="/assets/guitar.jpg" alt="Guitarra eléctrica" className="w-full h-96 object-cover rounded-lg mb-4 mx-auto" />
         <p>
-        La música es otra de mis grandes pasiones. Toco la guitarra desde hace 20 años y 
-        disfruto de una enorme variedad de géneros.<br /><br /> Para mí, cuando el arte es honesto, 
-        es único.<br /><br /> También compongo mis propias canciones, y aunque aún no cuento con las 
-        herramientas para producirlas, creo que la composición es mi don natural y algo 
-        que realmente me apasiona.
+          {t('about.music.description')}
         </p>
       </div>
     </div>
