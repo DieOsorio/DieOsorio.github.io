@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.2106318f.css",
-    "main.js": "/static/js/main.a823e2c4.js",
-    "static/media/black-linen.png": "/static/media/black-linen.8a1abc775dec4ce9e1d1.png",
+    "main.css": "/static/css/main.873f2876.css",
+    "main.js": "/static/js/main.3b1284c3.js",
+    "static/media/black-linen.webp": "/static/media/black-linen.b0643b96dc0c2db459d5.webp",
     "index.html": "/index.html",
-    "main.2106318f.css.map": "/static/css/main.2106318f.css.map",
-    "main.a823e2c4.js.map": "/static/js/main.a823e2c4.js.map"
+    "main.873f2876.css.map": "/static/css/main.873f2876.css.map",
+    "main.3b1284c3.js.map": "/static/js/main.3b1284c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.2106318f.css",
-    "static/js/main.a823e2c4.js"
+    "static/css/main.873f2876.css",
+    "static/js/main.3b1284c3.js"
   ]
 }
