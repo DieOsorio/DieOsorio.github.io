@@ -25,7 +25,7 @@ function Hero() {
         {t('hero.specialization')}
       </p>
 
-       <img src="/assets/me.jpg" alt="Mi imagen" className="rounded-full w-40 h-40 my-8 object-cover" />
+       <img src="/assets/me.webp" alt="Mi imagen" className="rounded-full w-40 h-40 my-8 object-cover" />
 
       <button
         onClick={() => handleScrollTo("#projects")}

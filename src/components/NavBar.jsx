@@ -42,7 +42,7 @@ function NavBar() {
       >
       <div className="flex gap-2 items-center">
         <h1 className="text-xl font-bold text-white">{t('navBar.title')}</h1>
-        <img src="/assets/mylogo.png" alt="logo" className="invert brightness-110 pl-1 w-12 h-12 object-contain rounded-lg"/>
+        <img src="/assets/mylogo.webp" alt="logo" className="invert brightness-110 pl-1 w-12 h-12 object-contain rounded-lg"/>
       </div>
       
       </button>

@@ -19,14 +19,14 @@ function About() {
       <div  iv className="grid md:grid-cols-2 gap-6">
         <div className="bg-[#121212]/25 text-white p-6 rounded-2xl shadow-lg">
           <h2 className="text-2xl font-bold mb-4">{t('about.code.title')}</h2>
-          <img src="/assets/code.jpg" alt="Código en pantalla" className="w-full h-96 object-cover object-[0_65%] rounded-lg mb-4 mx-auto" />
+          <img src="/assets/code.webp" alt="Código en pantalla" className="w-full h-96 object-cover object-[0_65%] rounded-lg mb-4 mx-auto" />
           <p>
           {t('about.code.description')}
           </p>
       </div>
       <div className="bg-[#121212]/25 text-white p-6 rounded-2xl shadow-lg">
         <h2 className="text-2xl font-bold mb-4">{t('about.music.title')}</h2>
-        <img src="/assets/guitar.jpg" alt="Guitarra eléctrica" className="w-full h-96 object-cover rounded-lg mb-4 mx-auto" />
+        <img src="/assets/guitar.webp" alt="Guitarra eléctrica" className="w-full h-96 object-cover rounded-lg mb-4 mx-auto" />
         <p>
           {t('about.music.description')}
         </p>

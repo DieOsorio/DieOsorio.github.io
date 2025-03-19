@@ -20,7 +20,7 @@ function Projects() {
       <p className="text-gray-400 my-2">{t('projects.subtitle')}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <ProjectCard
-          image= "/assets/vestigio.jpg"
+          image= "/assets/vestigio.webp"
           title={t('projects.vestigio.title')}
           description={t('projects.vestigio.description')}
           webDescription={t('projects.vestigio.webDescription')}
