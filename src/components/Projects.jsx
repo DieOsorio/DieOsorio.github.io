@@ -9,7 +9,7 @@ function Projects() {
   return (
     <motion.section
       id="projects"
-      className="bg-[#1F1F1F] bg-opacity-70 min-h-screen flex flex-col items-center text-center py-16"
+      className="bg-[#1F1F1F]/70 min-h-screen flex flex-col items-center text-center py-16"
       initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8 }}
@@ -26,21 +26,15 @@ function Projects() {
           link="https://vestigiorestauraciones.com/"
           visit={t('projects.vestigio.visit')}
         />
+        
         <ProjectCard
-          image="/assets/certificados.webp"
-          title={t('projects.certificates.title')}
-          description={t('projects.certificates.description')}
-          webDescription={t('projects.certificates.webDescription')}
-          link="https://dieosorio.github.io/certificados/"
-          visit={t('projects.certificates.visit')}
-        />
-        <ProjectCard
-          image="/assets/tunebrinde.webp" // Placeholder image, update as needed
+          image="/assets/tunebrinde.webp"
           title={t('projects.tunebridge.title')}
           description={t('projects.tunebridge.description')}
           webDescription={t('projects.tunebridge.webDescription')}
-          link="https://tunebrinde.com/" // Placeholder link, update as needed
+          link={null}
           visit={t('projects.tunebridge.visit')}
+          disabled={true}
         />
       </div>
     </motion.section>
