@@ -36,6 +36,12 @@
             "description": "The certificates correspond to courses completed on Coursera in various areas related to web development and programming. These courses have allowed me to acquire and strengthen knowledge in frontend, backend, and modern tools for application development.",
             "webDescription": "This project, developed with React.js and Tailwind CSS, neatly showcases my Coursera certificates. I used JSON to organize the data in a clear and scalable way, making updates easy. The design is minimalist, prioritizing readability and smooth navigation.",
             "visit": "Visit Site"
+        },
+        "tunebridge": {
+            "title": "TuneBridge",
+            "description": "TuneBridge is a social network designed for musicians. Users can create personal and group profiles, share posts, chat, and showcase or discover music projects. The platform encourages collaboration and community building among artists.",
+            "webDescription": "Developed with Vite, React.js, Supabase, Tailwind CSS, and React Query, TuneBridge offers real-time chat, project and group management, and a modern, responsive interface. Musicians can easily connect, share their work, and collaborate on new projects in a dedicated online space.",
+            "visit": "Visit Site"
         }
     },
     "contact": {

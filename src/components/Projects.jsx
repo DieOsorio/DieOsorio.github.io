@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import React from 'react'
 import ProjectCard from "./ProjectCard"
 
 import { useTranslation } from "react-i18next";
@@ -34,6 +33,14 @@ function Projects() {
           webDescription={t('projects.certificates.webDescription')}
           link="https://dieosorio.github.io/certificados/"
           visit={t('projects.certificates.visit')}
+        />
+        <ProjectCard
+          image="/assets/tunebrinde.webp" // Placeholder image, update as needed
+          title={t('projects.tunebridge.title')}
+          description={t('projects.tunebridge.description')}
+          webDescription={t('projects.tunebridge.webDescription')}
+          link="https://tunebrinde.com/" // Placeholder link, update as needed
+          visit={t('projects.tunebridge.visit')}
         />
       </div>
     </motion.section>
