@@ -16,7 +16,7 @@ function Projects() {
       viewport={{ once: true }}
     >
       <h2 className="text-3xl font-bold mb-10">{t('projects.title')}</h2>
-      <p className="text-gray-400 my-2">{t('projects.subtitle')}</p>
+      <p className="text-gray-400 my-6">{t('projects.subtitle')}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <ProjectCard
           image= "/assets/vestigio.webp"

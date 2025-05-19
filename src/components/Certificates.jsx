@@ -20,7 +20,6 @@ function Certificates() {
         image="/assets/certificados.webp"
         title={t('projects.certificates.title')}
         description={t('projects.certificates.description')}
-        webDescription={t('projects.certificates.webDescription')}
         link="https://dieosorio.github.io/certificados/"
         visit={t('projects.certificates.visit')}
       />

@@ -85,6 +85,14 @@ function NavBar() {
           </li>
           <li>
             <button
+              onClick={() => handleScrollTo("#certificates")}
+              className="hover:text-white transition"
+            >
+              {t('navBar.certificates')}
+            </button>
+          </li>
+          <li>
+            <button
               onClick={() => handleScrollTo("#projects")}
               className="hover:text-white transition"
             >
@@ -118,6 +126,9 @@ function NavBar() {
         </button>
         <button onClick={() => handleScrollTo("#projects")} className="hover:text-white transition">
           {t('navBar.projects')}
+        </button>
+        <button onClick={() => handleScrollTo("#certificates")} className="hover:text-white transition">
+          {t('navBar.certificates')}
         </button>
         <button onClick={() => handleScrollTo("#contact")} className="hover:text-white transition">
           {t('navBar.contact')}
