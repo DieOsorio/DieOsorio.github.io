@@ -43,7 +43,7 @@
             "title": "TuneBridge",
             "description": "TuneBridge is a social network designed for musicians. Users can create personal and group profiles, share posts, chat, and showcase or discover music projects. The platform encourages collaboration and community building among artists.",
             "webDescription": "Developed with Vite, React.js, Supabase, Tailwind CSS, and React Query, TuneBridge offers real-time chat, project and group management, and a modern, responsive interface. Musicians can easily connect, share their work, and collaborate on new projects in a dedicated online space.",
-            "visit": "In development - coming soon"
+            "visit": "Visit Site"
         }
     },
     "contact": {

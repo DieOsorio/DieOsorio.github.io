@@ -27,14 +27,12 @@ function Projects() {
           visit={t('projects.vestigio.visit')}
         />
         
-        <ProjectCard
-          image="/assets/tunebrinde.webp"
+        <ProjectCard          
           title={t('projects.tunebridge.title')}
           description={t('projects.tunebridge.description')}
           webDescription={t('projects.tunebridge.webDescription')}
-          link={null}
+          link="https://www.tunebridge.net/"
           visit={t('projects.tunebridge.visit')}
-          disabled={true}
         />
       </div>
     </motion.section>

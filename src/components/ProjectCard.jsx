@@ -16,11 +16,21 @@ const ProjectCard = ({ image, title, description, webDescription, link, visit, d
         </div>
       ) : (
         <a href={link} target="_blank" rel={title}>
-          <img 
-            src={image} 
-            alt={title} 
-            className="w-full h-48 object-cover hover:scale-110 transition-transform duration-500" 
-          />
+          {image ? (
+            <img
+              src={image}
+              alt={title}
+              className="w-full h-48 object-cover hover:scale-110 transition-transform duration-500"
+            />
+          ) : (
+            <div className='w-full h-48 bg-gradient-to-r from-gray-800 to-gray-900 flex items-center justify-center hover:scale-110 transition-transform duration-500'>
+              <h1 
+                style={{ fontFamily: "'Great Vibes', cursive" }}
+                className="text-5xl font-bold bg-gradient-to-r from-amber-400 via-amber-600 to-amber-700 text-transparent bg-clip-text drop-shadow-md select-none p-4">
+                  {title}
+              </h1>
+            </div>
+          )}
         </a>
       )}
       <div className="p-6 flex flex-col">
