@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.37ce35ac.css",
-    "main.js": "/static/js/main.0551208c.js",
+    "main.js": "/static/js/main.00f4a6f4.js",
     "static/media/black-linen.webp": "/static/media/black-linen.b0643b96dc0c2db459d5.webp",
     "index.html": "/index.html",
     "main.37ce35ac.css.map": "/static/css/main.37ce35ac.css.map",
-    "main.0551208c.js.map": "/static/js/main.0551208c.js.map"
+    "main.00f4a6f4.js.map": "/static/js/main.00f4a6f4.js.map"
   },
   "entrypoints": [
     "static/css/main.37ce35ac.css",
-    "static/js/main.0551208c.js"
+    "static/js/main.00f4a6f4.js"
   ]
 }
