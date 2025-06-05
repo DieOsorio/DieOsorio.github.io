@@ -30,7 +30,7 @@ function NavBar() {
 
   return (
     <motion.nav
-      className={`fixed w-full top-0 left-0 px-6 py-3  flex justify-between items-center backdrop-blur-md transition-all ${
+      className={`fixed w-full top-0 left-0 px-6 py-3  flex justify-between items-center backdrop-blur-md transition-all z-10 ${
         scrolled ? "bg-[#121212]/80 shadow-lg" : "bg-transparent"
       }`}
       initial={{ opacity: 0, y: -50 }}
