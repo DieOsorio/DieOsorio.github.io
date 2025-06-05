@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# 🌐 Personal Portfolio – Diego Osorio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio website, built to showcase my professional profile, highlight the projects I've developed, and provide easy ways to get in touch.
 
-## Available Scripts
+🔗 **Live site:** [https://dieosorio.github.io/](https://dieosorio.github.io/)  
+📄 **Online résumé:** [https://dieosorio.github.io/cv/](https://dieosorio.github.io/cv/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React 19** – Main UI library
+- **React Scripts** – Project base configuration
+- **Tailwind CSS** – Utility-first CSS framework
+- **Framer Motion** – Smooth animations
+- **React Icons** – Icon set for React
+- **i18next + react-i18next** – Internationalization (ES/EN)
+- **Headless UI + Heroicons** – Accessible and styled components
+- **GitHub Pages** – Hosting platform
+- **gh-pages** – Deployment automation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📁 Site Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The portfolio includes the following sections:
 
-### `npm run build`
+- **Home** – Animated intro and welcome
+- **About Me** – Personal background, tech stack, and professional approach
+- **Projects** – Showcases of selected projects with demo and repo links
+- **Certificates** – Interactive gallery featuring completed courses (Coursera)
+- **Contact** – Quick access via email and WhatsApp
+- **Footer** – Copyright info
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌍 Internationalization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This site is available in **English and Spanish**, with automatic language detection.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 🌐 Portfolio Personal – Diego Osorio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este es mi sitio web personal/portfolio, desarrollado con el objetivo de presentar mi perfil profesional, mostrar los proyectos que he realizado y facilitar formas de contacto.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔗 **Sitio en vivo:** [https://dieosorio.github.io/](https://dieosorio.github.io/)  
+📄 **CV online:** [https://dieosorio.github.io/cv/](https://dieosorio.github.io/cv/)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Tecnologías utilizadas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React 19** – Librería principal para la construcción del sitio
+- **React Scripts** – Configuración base del proyecto
+- **Tailwind CSS** – Framework de estilos utilitario
+- **Framer Motion** – Animaciones fluidas
+- **React Icons** – Iconografía
+- **i18next + react-i18next** – Internacionalización (ES/EN)
+- **Headless UI + Heroicons** – Componentes accesibles y estilizados
+- **GitHub Pages** – Hosting del sitio
+- **gh-pages** – Script de despliegue automático
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📁 Estructura del sitio
 
-### Analyzing the Bundle Size
+El portfolio incluye las siguientes secciones:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Inicio** – Bienvenida animada e introducción breve
+- **Sobre mí** – Información personal, stack de tecnologías y enfoque profesional
+- **Proyectos** – Muestra de proyectos destacados con links a demos y repositorios
+- **Certificados** – Acceso a una galería interactiva con certificados obtenidos (Coursera)
+- **Contacto** – Accesos directos por email y WhatsApp
+- **Footer** – Información de copyright
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🌍 Internacionalización
 
-### Advanced Configuration
+El sitio está disponible en **español e inglés**, con detección automática del idioma del navegador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
