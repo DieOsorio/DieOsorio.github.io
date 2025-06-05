@@ -4,43 +4,55 @@
         "aboutMe": "Sobre mí",
         "projects": "Proyectos",
         "contact": "Contacto",
+        "certificates": "Certificados",
         "resume": "Currículum"
     },
     "hero": {
         "greetings": "Hola, soy Diego",
-        "specialization": "Desarrollador Frontend | UI/UX Entusiasta",
-        "seeProjects": "Ver mis proyectos"
+        "specialization": "Desarrollador Frontend con foco en UI/UX | Proyectos reales",
+        "seeProjects": "Explora mi trabajo",
+        "alt": {
+            "heroImage": "Retrato de Diego Osorio",
+            "ariaLabel": "Introducción"
+        }
     },
     "about": {
         "title": "Sobre mí",
         "code": {
             "title": "Programación",
-            "description": "Desde siempre me ha atraído el proceso lógico y la resolución de problemas, lo que me llevó a interesarme por la programación. He explorado tanto el ack-end como el front-end y, de todo lo que he probado, Java ha sido el lenguaje que más me ha gustado, aunque aún no he tenido la oportunidad de utilizarlo en un proyecto. Me motiva seguir aprendiendo porque encuentro en la programación una combinación perfecta entre utilidad y el desafío de resolver problemas. Además, desde chico he usado la computadora para muchas cosas, empezando por los juegos, lo que con el tiempo amplió mi curiosidad por la tecnología."
+            "description": "Siempre me ha atraído la lógica y la resolución de problemas, lo que me llevó a interesarme por la programación. He explorado tanto el desarrollo frontend como el backend, y descubrí que disfruto construir interfaces y experiencias de usuario. Aunque comencé con Java, hoy trabajo principalmente con JavaScript, React y herramientas web modernas. Disfruto crear aplicaciones útiles, escalables y visualmente atractivas, y estoy constantemente aprendiendo para expandir mis habilidades."
         },
         "music": {
             "title": "Música",
-            "description": "La música es otra de mis grandes pasiones. Toco la guitarra desde hace 20 años y disfruto de una enorme variedad de géneros. Para mí, cuando el arte es honesto, es único. También compongo mis propias canciones, y aunque aún no cuento con las herramientas para producirlas, creo que la composición es mi don natural y algo que realmente me apasiona."
+            "description": "La música ha sido una de mis pasiones durante más de 20 años. Toco la guitarra y compongo mis propias canciones, y creo que la creatividad y la disciplina son valores que conectan tanto la música como la programación. Esta pasión me inspiró a construir TuneBridge, una plataforma para que los músicos se conecten, compartan y colaboren."
         }
     },
     "projects": {
-        "title": "Mis Proyectos",
-        "subtitle": "Algunos de mis trabajos recientes",
+        "title": "Proyectos",
+        "subtitle": "Algunos de los proyectos más relevantes que he desarrollado.",
         "vestigio": {
-            "title":"Vestigio Restauraciones",
-            "description": "Restauración artesanal de muebles de estilo. Preservamos su historia con técnicas tradicionales, devolviendo a cada pieza su esplendor original. Con más de 20 años de experiencia, en Vestigio nos dedicamos a recuperar muebles valiosos con un trabajo cuidadoso y detallado, manteniendo su carácter y calidad.",
-            "webDescription": "La página web de Vestigio fue desarrollada con HTML, CSS y JavaScript, con un diseño personalizado que refleja la identidad del proyecto. Cada sección fue pensada para ofrecer una navegación clara y sencilla, asegurando que la presentación de los trabajos de restauración sea visualmente atractiva y fácil de explorar.",
-            "visit": "Visitar Sitio"
+            "title": "Vestigio Restauraciones",
+            "description": "Sitio web oficial para un emprendimiento de restauración de muebles, diseñado y desarrollado desde cero para crear una identidad de marca y aumentar la presencia online.",
+            "webDescription": "Desarrollado con HTML, CSS y JavaScript puro. Publicado en GitHub Pages con dominio personalizado e integración de Google Analytics.",
+            "visit": "Visitar sitio"
+        },
+        "tunebridge": {
+            "title": "TuneBridge",
+            "description": "Red social para músicos y profesionales del ámbito musical, pensada para facilitar conexiones, colaboraciones y mostrar material creativo.",
+            "webDescription": "Aplicación full-stack desarrollada con React, Vite, Tailwind CSS, Supabase, i18next y React Query. Incluye autenticación, perfiles, publicaciones, likes, comentarios, chat y compartición de música.",
+            "visit": "Visitar app"
         },
         "certificates": {
             "title":"Certificados",
+            "subtitle": "Una recopilación de certificaciones técnicas y cursos que he completado.",
             "description": "Los certificados corresponden a cursos realizados en Coursera en distintas áreas relacionadas con el desarrollo web y la programación.Estos cursos me han permitido adquirir y reforzar conocimientos en frontend, backend y herramientas modernas para el desarrollo de aplicaciones.",
             "webDescription": "Este proyecto, desarrollado con React.js y Tailwind CSS, muestra de forma ordenada mis certificados de Coursera. Utilicé JSON para organizar los datos de manera clara y escalable, facilitando su actualización. El diseño es minimalista y prioriza la legibilidad y navegación fluida.",
-            "visit": "Visitar Sitio"
+            "visit": "Ver certificados"
         }
     },    
     "contact": {
-        "title": "Contáctame",
-        "subtitle": "¿Tienes algún proyecto en mente o quieres colaborar? Escríbeme y charlemos sobre ideas.",
+        "title": "Contacto",
+        "subtitle": "Si querés trabajar conmigo o tenés alguna consulta, no dudes en escribirme.",
         "email": "Enviar Email",
         "wpp": "WhatsApp"
     }    
