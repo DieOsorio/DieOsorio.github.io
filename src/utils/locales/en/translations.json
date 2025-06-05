@@ -9,47 +9,52 @@
     },
     "hero": {
         "greetings": "Hi, I'm Diego",
-        "specialization": "Frontend Developer | UI/UX Enthusiast",
-        "seeProjects": "See my projects"
+        "specialization": "Frontend Developer & UI/UX Focused | Real-world Projects",
+        "seeProjects": "Explore my work",
+        "alt": {
+            "heroImage": "Portrait of Diego Osorio",
+            "ariaLabel": "Introduction"
+        }
     },
     "about": {
         "title": "About me",
         "code": {
             "title": "Programming",
-            "description":"I have always been drawn to logical processes and problem-solving, which led me to take an interest in programming. I have explored both back-end and front-end development, and out of everything I have tried, Java has been the language I have enjoyed the most, although I have not yet had the opportunity to use it in a project. I am motivated to continue learning because I find programming to be a perfect combination of utility and the challenge of solving problems. Furthermore, since I was a child, I have used computers for many things, starting with games, which, over time, sparked my curiosity about technology."
+            "description": "I have always been drawn to logic and problem-solving, which naturally led me to programming. I explored both frontend and backend development, and discovered that I enjoy building interfaces and user experiences the most. Although I started with Java, today I work mainly with JavaScript, React, and modern web tools. I enjoy creating useful, scalable, and visually pleasing applications, and I’m constantly learning to expand my skills."
         },
         "music": {
             "title": "Music",
-            "description": "Music is another one of my great passions. I have been playing the guitar for 20 years and enjoy a wide variety of genres. For me, when art is honest, it is unique. I also compose my own songs, and although I don't yet have the tools to produce them, I believe that composition is my natural gift and something I am truly passionate about."
+            "description": "Music has been one of my passions for over 20 years. I play guitar and compose my own songs, and I believe creativity and discipline are values that connect both music and programming. This passion inspired me to build TuneBridge, a platform for musicians to connect, share, and collaborate."
         }
     },
     "projects": {
-        "title": "My Projects",
-        "subtitle": "Some of my recent work",
+        "title": "Projects",
+        "subtitle": "Here are some of the most relevant projects I've built.",
         "vestigio": {
-            "title":"Vestigio Restauraciones",
-            "description": "Artisanal restoration of classic furniture. We preserve its history with traditional techniques, restoring each piece to its original splendor. With over 20 years of experience, at Vestigio we are dedicated to recovering valuable furniture with meticulous and detailed work, maintaining its character and quality.",
-            "webDescription": "The Vestigio website was developed using HTML, CSS, and JavaScript, featuring a custom design that reflects the identity of the project. Each section was thoughtfully created to offer clear and simple navigation, ensuring that the presentation of restoration work is visually appealing and easy to explore.",
-            "visit": "Visit Site"
-        },
-        "certificates": {
-            "title":"Certificates",
-            "subtitle": "Courses completed on Coursera",
-            "description": "The certificates correspond to courses completed on Coursera in various areas related to web development and programming. These courses have allowed me to acquire and strengthen knowledge in frontend, backend, and modern tools for application development.",
-            "webDescription": "This project, developed with React.js and Tailwind CSS, neatly showcases my Coursera certificates. I used JSON to organize the data in a clear and scalable way, making updates easy. The design is minimalist, prioritizing readability and smooth navigation.",
-            "visit": "Visit Site"
+            "title": "Vestigio Restauraciones",
+            "description": "Official website for a furniture restoration business, designed and developed from scratch to build brand identity and increase online presence.",
+            "webDescription": "Built with HTML, CSS, and vanilla JavaScript. Hosted on GitHub Pages with a custom domain and Google Analytics integration.",
+            "visit": "Visit website"
         },
         "tunebridge": {
             "title": "TuneBridge",
-            "description": "TuneBridge is a social network designed for musicians. Users can create personal and group profiles, share posts, chat, and showcase or discover music projects. The platform encourages collaboration and community building among artists.",
-            "webDescription": "Developed with Vite, React.js, Supabase, Tailwind CSS, and React Query, TuneBridge offers real-time chat, project and group management, and a modern, responsive interface. Musicians can easily connect, share their work, and collaborate on new projects in a dedicated online space.",
-            "visit": "Visit Site"
+            "description": "Social network for musicians and music professionals, aimed at facilitating connections, collaborations, and showcasing creative work.",
+            "webDescription": "Full-stack app built with React, Vite, Tailwind CSS, Supabase, i18next, and React Query. Includes authentication, user profiles, posts, likes, comments, chat, and music sharing.",
+            "visit": "Visit app"
+        },
+        "certificates": {
+            "title":"Certificates",
+            "subtitle": "A collection of technical certifications and courses I've completed.",
+            "description": "The certificates correspond to courses completed on Coursera in various areas related to web development and programming. These courses have allowed me to acquire and strengthen knowledge in frontend, backend, and modern tools for application development.",
+            "webDescription": "This project, developed with React.js and Tailwind CSS, neatly showcases my Coursera certificates. I used JSON to organize the data in a clear and scalable way, making updates easy. The design is minimalist, prioritizing readability and smooth navigation.",
+            "visit": "View certificates"
         }
     },
     "contact": {
-        "title": "Contact me",
-        "subtitle": "Do you have a project in mind or want to collaborate? Write to me, and let's chat about ideas.",
+        "title": "Contact",
+        "subtitle": "If you'd like to work together or have any questions, feel free to reach out.",
         "email": "Send Email",
         "wpp": "WhatsApp"
-    }    
+    }
+
 }
