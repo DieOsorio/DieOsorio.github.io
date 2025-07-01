@@ -27,7 +27,8 @@ function Projects() {
           visit={t('projects.vestigio.visit')}
         />
         
-        <ProjectCard          
+        <ProjectCard 
+          image="/assets/TuneBridge.jpg"         
           title={t('projects.tunebridge.title')}
           description={t('projects.tunebridge.description')}
           webDescription={t('projects.tunebridge.webDescription')}
